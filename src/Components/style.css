@@ -1,0 +1,42 @@
+.second{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* border: 2px solid;
+    border-radius: 10px; */
+    gap: 10px;
+    
+}
+
+.sec_main{
+    border: 2px solid;
+    border-radius: 10px;   
+}
+
+table,tr,td{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color:thistle
+}
+.b{
+    background-color:antiquewhite;
+    border-radius: 10px;
+}
+tr:nth-child(odd){
+    background-color:peachpuff
+}
+
+.btn{
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    
+}
+
+.btn:hover{
+    color: blanchedalmond;
+    background-color: chocolate;
+}
